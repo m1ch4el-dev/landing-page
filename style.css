@@ -16,6 +16,7 @@
 .logo {
   color: #F9FAF8;
   font-size: 24px;
+  font-weight: 900;
   margin-left: 300px;
   user-select: none;
 }
@@ -146,4 +147,59 @@
   font-size: 24px;
   display: flex;
   justify-content: flex-end;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px;
+}
+
+.sign-up {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  width: 700px;
+  padding: 30px 60px;
+  border-radius: 10px;
+  border: 2px dotted red; /* Remove me later! */
+}
+
+.sign-up .text-box {
+  display: flex;
+  flex-direction: column;
+  border: 2px dotted red; /* Remove me later! */
+}
+
+.text-box .heading {
+  color: #F9FAF8;
+  font-size: 22px;
+}
+
+.text-box .description {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.sign-up button {
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+  background-color: #3882F6;
+  font-size: 16px;
+  height: 30px;
+  width: 115px;
+  border-radius: 6px;
+}
+
+.sign-up a:link {
+  color: #F9FAF8;
+  text-decoration: none;
+}
+
+.sign-up a:visited {
+  color: #F9FAF8;
+  text-decoration: none;
 }
