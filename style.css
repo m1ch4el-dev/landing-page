@@ -11,13 +11,13 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 12px;
-  border: 2px dotted red; /* Remove me later! */
 }
 
 .logo {
   color: #F9FAF8;
   font-size: 24px;
   margin-left: 300px;
+  user-select: none;
 }
 
 /* Link styling */
@@ -50,7 +50,6 @@
   flex-direction: column;
   height: 250px;
   width: 600px;
-  border: 2px dotted red; /* Remove me later! */
 }
 
 .heading h1 {
@@ -86,19 +85,27 @@
   text-decoration: none;
 }
 
+.hero .image {
+  display: flex;
+  flex-shrink: 3;
+}
+
 .body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 25px 82px 25px;
+  padding: 25px 25px 75px 25px;
 }
 
 .heading h2 {
   color: #1F2937;
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 15px;
+  margin-bottom: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery {
@@ -106,7 +113,6 @@
   justify-content: space-around;
   height: 260px;
   width: 800px;
-  border: 2px dotted red; /* Remove me later! */
 }
 
 .gallery img {
@@ -121,10 +127,23 @@
   justify-content: center;
   height: 110px;
   width: 175px;
-  border: 2px dotted red; /* Remove me later! */
 }
 
-/* Remove me later! */
-.hero .image {
-  border: 2px dotted red;
+.quote {
+  background-color: #E5E7EB;
+  padding: 100px 400px;
+}
+
+.quote .text-box {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quote .author {
+  color: #1F2937;
+  font-size: 24px;
+  display: flex;
+  justify-content: flex-end;
 }
