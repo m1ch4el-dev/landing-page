@@ -1,6 +1,6 @@
 # Landing Page
 
-This is a project featured in **"The Odin Project"**.
+This is a project featured in [**"The Odin Project"**](https://www.theodinproject.com/lessons/foundations-landing-page).
 
 It is a landing page [website](https://m1ch4el-dev.github.io/landing-page/).
 It's purpose is to practice building layouts and getting comfortable with CSS + Flexbox.
